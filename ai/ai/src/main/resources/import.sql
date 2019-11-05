@@ -1,0 +1,14 @@
+insert into category(id_category, category_name) values (1, "Praca");
+insert into category(id_category, category_name) values (2, "Dom");
+insert into category(id_category, category_name) values (3, "Samochod");
+insert into category(id_category, category_name) values (4, "Jedzenie");
+insert into category(id_category, category_name) values (5, "Odziez");
+insert into category(id_category, category_name) values (6, "Inne");
+insert into user(id_user, username, email, password) values (1, "Adam", "adam@wp.pl", "$2a$10$4FZKAXQ8189p9iiZAi5b7.WjfE2D98Zmw1N9oOfB0gi/ap7Gt8Shy");
+insert into transaction (id_transaction, value, description, date, category_id_category, user_id_user) values (1, 2500.00, "Wyplata", "2018-01-02", 1, 1);
+insert into transaction (id_transaction, value, description, date, category_id_category, user_id_user) values (2, -98.00, "Zakupy", "2019-01-05", 4, 1);
+insert into transaction (id_transaction, value, description, date, category_id_category, user_id_user) values (3, -81.37, "Woda", "2018-01-18", 2, 1);
+insert into transaction (id_transaction, value, description, date, category_id_category, user_id_user) values (4, -118.50, "Prad", "2019-12-21", 2, 1);
+insert into transaction (id_transaction, value, description, date, category_id_category, user_id_user) values (5, -162.00, "Przeglad samochodu", "2019-01-21", 3, 1);
+insert into transaction (id_transaction, value, description, date, category_id_category, user_id_user) values (6, -208.00, "Zakupy", "2019-01-22", 5, 1);
+insert into transaction (id_transaction, value, description, date, category_id_category, user_id_user) values (7, -85.00, "Kino", "2019-01-23", 6, 1);
